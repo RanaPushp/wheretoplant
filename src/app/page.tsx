@@ -25,7 +25,7 @@ export default function Home() {
               <a href="#solution" className="text-gray-600 hover:text-green-600 transition-colors">Solution</a>
               <a href="#features" className="text-gray-600 hover:text-green-600 transition-colors">Features</a>
               <a href="#try-now" className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
-                Try @seedsagebot
+                Try @wheretoplantbot
               </a>
             </div>
 
@@ -90,7 +90,7 @@ export default function Home() {
               Restore AI Bot
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
-              Revolutionizing Forest Restoration Through AI-Powered Site Selection
+              Revolutionizing Forest Restoration Through AI-Powered Plantation Site Selection
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a 
@@ -116,25 +116,29 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              The Problem: $7+ Million Wasted Annually 💸
+              The Problem: Half of the expenditure done on growing trees in the world is wasteful expenditure 💸
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Most tree planting projects choose the wrong locations, leading to massive waste of resources and failed restoration efforts.
+              Most tree planting projects choose the wrong locations to plant trees, leading to massive waste of resources and failed restoration efforts.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16 stagger-animation">
             <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
               <div className="text-4xl font-bold text-red-600 mb-2">~60%</div>
-              <p className="text-gray-700">of $12M+ annual restoration budget thrown into doomed sites</p>
+              <p className="text-gray-700">of $7 million annual restoration budget spent on sites where trees can not grow in a small state of Himachal Pradesh</p>
             </div>
             <div className="bg-orange-50 p-8 rounded-2xl border border-orange-200">
               <div className="text-4xl font-bold text-orange-600 mb-2">50-90%</div>
-              <p className="text-gray-700">of trees DIE in poorly selected locations</p>
+              <p className="text-gray-700">of trees die in poorly selected locations</p>
             </div>
             <div className="bg-yellow-50 p-8 rounded-2xl border border-yellow-200">
-              <div className="text-4xl font-bold text-yellow-600 mb-2">$12M+</div>
-              <p className="text-gray-700">spent annually in Himachal Pradesh alone</p>
+              <div className="text-4xl font-bold text-yellow-600 mb-2">$20 Billion+</div>
+              <p className="text-gray-700">spent annually in 61 countries who pledged to restore 210 million hectares under Bonn Challenge</p>
+            </div>
+            <div className="bg-yellow-50 p-8 rounded-2xl border border-yellow-200">
+              <div className="text-4xl font-bold text-yellow-600 mb-2">An estimated $10 Billion+</div>
+              <p className="text-gray-700">spent annually in these countries for forest restoration is likely a wasteful expenditure</p>
             </div>
           </div>
 
@@ -144,21 +148,21 @@ export default function Home() {
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
-                  <p className="text-gray-700">High mortality rates of planted saplings</p>
+                  <p className="text-gray-700">High mortality rates of planted saplings due to poor site selection</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
-                  <p className="text-gray-700">Wasted financial resources and human effort</p>
+                  <p className="text-gray-700">Trees planted in already dense forest areas</p>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
-                  <p className="text-gray-700">Continued environmental degradation</p>
+                  <p className="text-gray-700">Trees planted in areas with contested land tenure</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
-                  <p className="text-gray-700">Loss of community trust in conservation efforts</p>
+                  <p className="text-gray-700">Trees planted in unproductive and natural blank areas</p>
                 </div>
               </div>
             </div>
@@ -174,7 +178,7 @@ export default function Home() {
               The Solution: AI Meets Conservation
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Restore AI Bot (@seedsagebot) is a data-driven Telegram bot that transforms how we approach forest restoration.
+              WhereToPlantBot (@seedsagebot) is a data-driven Telegram bot that transforms how we approach forest restoration.
             </p>
           </div>
 
@@ -184,7 +188,7 @@ export default function Home() {
                 <MapPin className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Location Intelligence</h3>
-              <p className="text-gray-600">Analyzes soil composition, climate patterns, elevation, and historical vegetation data</p>
+              <p className="text-gray-600">Analyzes soil data, climate patterns, elevation, slope, aspect, social data, infrastructure, historical vegetation data and natural blanks</p>
             </div>
             <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4">
@@ -218,21 +222,21 @@ export default function Home() {
                   <span className="text-2xl font-bold text-blue-600">1</span>
                 </div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">Share Location</h4>
-                <p className="text-gray-600">User opens Telegram, finds @seedsagebot, and shares their geographic coordinates</p>
+                <p className="text-gray-600">User opens Telegram, finds @wheretoplantbot, and shares their geographic coordinates</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-green-600">2</span>
                 </div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">AI Analysis</h4>
-                <p className="text-gray-600">The bot&apos;s machine learning model processes environmental data and climate patterns</p>
+                <p className="text-gray-600">The bot&apos;s machine learning model processes location data, environmental and social data, and climate patterns</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-purple-600">3</span>
                 </div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">Visual Report</h4>
-                <p className="text-gray-600">Generates a color-coded viability map with success predictions and insights</p>
+                <p className="text-gray-600">Generates a color-coded viability map with plantation success predictions and insights</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -251,11 +255,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Current Focus: Himachal Pradesh
+              Current Focus: Himachal Pradesh, India
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The bot currently specializes in Himachal Pradesh, a state of critical ecological importance in the Indian Himalayas.
-            </p>
+              The bot currently specializes in Himachal Pradesh, a state of critical ecological importance in the Indian Himalayas. 
+              Significant proportion of users satisfied with bot predictions when bot tested on ground (n=271) in June, 2025 
+              </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -308,14 +313,14 @@ export default function Home() {
                 <Users className="w-6 h-6 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Community Empowerment</h3>
-              <p className="text-gray-600">Gives local citizens and organizations scientific tools for conservation decision-making</p>
+              <p className="text-gray-600">Gives local citizens, NGOs and organizations scientific tools for conservation decision-making</p>
             </div>
             <div className="bg-white p-6 rounded-2xl shadow-lg">
               <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-4">
                 <Globe className="w-6 h-6 text-purple-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Data-Driven Policy</h3>
-              <p className="text-gray-600">Provides evidence-based insights for government and NGO restoration strategies</p>
+              <p className="text-gray-600">Provides evidence-based insights for government, communities and NGO-led restoration strategies</p>
             </div>
           </div>
 
@@ -328,7 +333,7 @@ export default function Home() {
                   <Bot className="w-8 h-8 text-blue-600" />
                 </div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">Machine Learning</h4>
-                <p className="text-gray-600">Custom-trained ensemble model on historical plantation data</p>
+                <p className="text-gray-600">Custom-trained ensemble model on historical plantation, social and climate data</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -357,7 +362,7 @@ export default function Home() {
               What&apos;s Next?
             </h2>
                           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Restore AI Bot represents the first step in a comprehensive restoration ecosystem. Current focus is on &quot;where to plant&quot; - the critical foundation for success.
+              WhereToPlant AI Bot represents the first step in a comprehensive restoration ecosystem. Current focus is on &quot;where to plant&quot; - the critical foundation for success.
             </p>
           </div>
 
@@ -372,7 +377,7 @@ export default function Home() {
             </div>
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-2xl">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">State Expansion</h3>
-              <p className="text-gray-700">Expansion to additional Indian states beyond Himachal Pradesh</p>
+              <p className="text-gray-700">Expansion to additional Indian states beyond Himachal Pradesh and to other countries</p>
             </div>
             <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-2xl">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Government Integration</h3>
@@ -397,7 +402,7 @@ export default function Home() {
             Ready to Make a Difference?
           </h2>
                       <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            Join the movement towards data-driven forest restoration. Whether you&apos;re a conservationist, researcher, or simply someone who cares about our environment, Restore AI Bot is your gateway to smarter restoration decisions.
+            Join the movement towards data-driven forest restoration. Whether you&apos;re a conservationist, researcher, or simply someone who cares about our environment, WhereToPlant Bot is your gateway to smarter restoration decisions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
@@ -407,7 +412,7 @@ export default function Home() {
               className="bg-white text-green-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 flex items-center"
             >
               <Bot className="mr-2 w-5 h-5" />
-              Try @seedsagebot Now
+              Try @wheretoplantebot Now
             </a>
             <a 
               href="#problem" 
